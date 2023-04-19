@@ -31,7 +31,7 @@ function render(variables = {}) {
   let name = "";
   if (variables.name !== null) name = variables.name;
   let lastname = "";
-  if (variables.lastname !== null) name = variables.lastname;
+  if (variables.lastname !== null) lastname = variables.lastname;
   let role = "";
   if (variables.role != null) role = variables.role;
   let city = "";
